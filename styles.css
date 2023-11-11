@@ -29,7 +29,6 @@ body {
     max-width: 800px;
     height: inherit;
     margin: auto;
-
     position: relative;
 }
 
@@ -37,6 +36,10 @@ body {
     float: left;
     margin-top: 5px;
 }
+
+ .nav .text-width {
+    max-width: none;
+} 
 
 .nav__click-area {
     float: right;
