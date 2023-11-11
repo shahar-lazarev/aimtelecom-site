@@ -119,11 +119,17 @@ a:hover {
     color: white;
 
     position: absolute;
-    right: 40px;
+    right: 15%;
     top: 8vw;
 
     text-align: right;
     user-select: none;
+}
+@media screen and (min-width: 700px) {
+    .hero__text {
+        font-size: 40px;
+        
+    }
 }
 
 .hero-btn {
